@@ -1,3 +1,6 @@
-let array = [26, 36, 74, 98, 15];
+let tab = [26, 36, 74, 98, 15];
 
-console.log(array[0]);
+function firstElement(arg) {
+    return arg[0];
+}
+console.log(firstElement(tab));
